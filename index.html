@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bill Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-image: url('data:image/jpeg;base64,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');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+    }
+    </style>
+</head>
+<body>
+  <h1>Bill Generator</h1>
+  
+  <form id="billForm">
+    <label for="customerName">Customer Name:</label>
+    <input type="text" id="customerName" required><br><br>
+  
+    <label for="itemName">Item Name:</label>
+    <input type="text" id="itemName" required><br><br>
+  
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" required><br><br>
+  
+    <label for="price">Price:</label>
+    <input type="number" id="price" required><br><br>
+  
+    <input type="submit" value="Generate Bill">
+  </form>
+  
+  <div id="billPreview"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
